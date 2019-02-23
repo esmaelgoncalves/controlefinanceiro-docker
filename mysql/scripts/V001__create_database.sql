@@ -22,9 +22,9 @@ CREATE TABLE pessoa (
 	ativo BOOLEAN NOT NULL 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO pessoa (nome, logradouro, numero, bairro, cep, cidade, estado, ativo) values ('Esmael Gonçalves', 'Rua Pedro Dias', '46', 'Vila Nogueira', '09960-330', 'Diadema', 'São Paulo', true);
-INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('Tatiane Mestezk', 'Rua Pedro Dias', '46', 'Casa 2', 'Vila Nogueira', '09960-330', 'Diadema', 'São Paulo', true);
-INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('João', 'Rua Dom Marcos de Noronha', '291', 'Casa 2', 'Bairro Nuevo', '09960-190', 'Diadema', 'São Paulo', false);
+INSERT INTO pessoa (nome, logradouro, numero, bairro, cep, cidade, estado, ativo) values ('Joãozinho', 'Rua Pedro Dias', '46', 'Vila Nogueira', '09960-330', 'Diadema', 'São Paulo', true);
+INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('Mariazinha', 'Rua Pedro Dias', '46', 'Casa 2', 'Vila Nogueira', '09960-330', 'Diadema', 'São Paulo', true);
+INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('Pedrinho', 'Rua Dom Marcos de Noronha', '291', 'Casa 2', 'Bairro Nuevo', '09960-190', 'Diadema', 'São Paulo', false);
 
 
 CREATE TABLE lancamento (
